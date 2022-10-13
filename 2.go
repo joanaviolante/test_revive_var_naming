@@ -8,7 +8,8 @@ func fact(n int) int {
     }
     return n * fact(n-1)
 }
-
+#test
+#test1
 func main() {
     fmt.Println(fact(7))
 
