@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func fact(n int) int {
+    var partnerLocationId int64 = 1
+    
     if n == 0 {
         return 1
     }
