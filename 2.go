@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const TIMESTAMP_SQL = "select "
+
 func fact(n int) int {
     var partnerLocationId int64 = 2
     
@@ -10,8 +12,7 @@ func fact(n int) int {
     }
     return n * fact(n-1)
 }
-#test
-#test1
+
 func main() {
     fmt.Println(fact(7))
 
