@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func fact(n int) int {
-    var partnerLocationId int64 = 1
+    var partnerLocationId int64 = 2
     
     if n == 0 {
         return 1
